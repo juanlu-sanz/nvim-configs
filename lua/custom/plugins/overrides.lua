@@ -1,14 +1,7 @@
 local M = {}
 
 M.treesitter = {
-  ensure_installed = {
-    "vim",
-    "lua",
-    "html",
-    "css",
-    "typescript",
-    "c",
-  },
+  ensure_installed = "all",
 }
 
 M.mason = {
