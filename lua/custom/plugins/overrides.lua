@@ -19,7 +19,12 @@ M.mason = {
 
     -- golang stuff
     "gopls",
-    "html-lsp",
+    "bash-language-server",
+    "ansible-language-server",
+    "dockerfile-language-server",
+    "kotlin-language-server",
+    "marksman",
+    "jq"
   },
 }
 
