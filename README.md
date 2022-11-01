@@ -6,7 +6,7 @@ Custom NvChad configs.
 
 ### 1) Install NvChad
 
-[https://nvchad.com/quickstart/install](Instructions here)
+Follow the official guide [here](https://nvchad.com/quickstart/install)
 
 ### 2) Download and symlink this repo to your local one
 
