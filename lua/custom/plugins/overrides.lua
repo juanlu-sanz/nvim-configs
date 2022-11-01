@@ -17,7 +17,7 @@ M.mason = {
     "lua-language-server",
     "stylua",
 
-    -- golang stuff
+    -- assorted languages stuff
     "gopls",
     "bash-language-server",
     "ansible-language-server",
