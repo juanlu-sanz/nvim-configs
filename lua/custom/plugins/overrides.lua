@@ -18,6 +18,12 @@ M.mason = {
 		"kotlin-language-server",
 		"marksman",
 		"jq",
+
+    -- Linters
+    "prettier",
+    "deno",
+    "clang-format",
+    "ktlint",
 	},
 }
 

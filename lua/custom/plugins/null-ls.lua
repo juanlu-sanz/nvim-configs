@@ -22,6 +22,13 @@ local sources = {
 	-- cpp
 	b.formatting.clang_format,
 	b.formatting.rustfmt,
+
+	-- golang
+	b.formatting.gofmt,
+
+	-- kotlin
+	b.formatting.ktlint,
+	b.diagnostics.ktlint,
 }
 
 null_ls.setup({

@@ -2,6 +2,8 @@
 
 Custom NvChad configs.
 
+
+
 ## Installation
 
 ### 1) Install NvChad
