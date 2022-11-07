@@ -32,6 +32,9 @@ local sources = {
 
 	-- json
 	b.formatting.jq,
+
+  -- ansible
+  b.diagnostics.ansiblelint
 }
 
 null_ls.setup({
