@@ -41,6 +41,9 @@ return {
 		end,
 	},
 
-	-- remove plugin
+	-- seamlessly navigate between nvim and tmux tabs
+	["christoomey/vim-tmux-navigator"] = {},
+
+  -- remove plugin
 	-- ["hrsh7th/cmp-path"] = false,
 }
