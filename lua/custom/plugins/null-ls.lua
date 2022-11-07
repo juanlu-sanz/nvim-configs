@@ -29,6 +29,9 @@ local sources = {
 	-- kotlin
 	b.formatting.ktlint,
 	b.diagnostics.ktlint,
+
+	-- json
+	b.formatting.jq,
 }
 
 null_ls.setup({

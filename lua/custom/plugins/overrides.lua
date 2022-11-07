@@ -16,6 +16,7 @@ M.mason = {
 		"ansible-language-server",
 		"dockerfile-language-server",
 		"kotlin-language-server",
+		"json-lsp",
 		"marksman",
 		"jq",
 
