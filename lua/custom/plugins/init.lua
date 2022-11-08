@@ -44,6 +44,13 @@ return {
 	-- seamlessly navigate between nvim and tmux tabs
 	["christoomey/vim-tmux-navigator"] = {},
 
+	-- Which key
+	["folke/which-key.nvim"] = {
+		config = function()
+			require("which-key").setup()
+		end,
+	},
+
 	-- Debug plugins
 	["mfussenegger/nvim-dap"] = {
 		opt = true,
@@ -56,22 +63,12 @@ return {
 			"rcarriga/nvim-dap-ui",
 			"mfussenegger/nvim-dap-python",
 			"nvim-telescope/telescope-dap.nvim",
+			"folke/which-key.nvim",
 			{ "leoluz/nvim-dap-go", module = "dap-go" },
 			{ "jbyuki/one-small-step-for-vimkind", module = "osv" },
 		},
 		config = function()
-			require("config.dap").setup()
-		end,
-	},
-
-	-- Which key
-	["folke/which-key.nvim"] = {
-		config = function()
-			require("which-key").setup({
-				-- your configuration comes here
-				-- or leave it empty to use the default settings
-				-- refer to the configuration section below
-			})
+			require("custom.plugins.dap").setup()
 		end,
 	},
 }
