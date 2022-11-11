@@ -105,7 +105,6 @@ function M.setup()
   configure() -- Configuration
   configure_exts() -- Extensions
   configure_debuggers() -- Debugger
-  -- require("custom.plugins.dap.keymaps").setup() -- Keymaps
 end
 
 configure_debuggers()
