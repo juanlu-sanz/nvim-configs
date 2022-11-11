@@ -28,6 +28,7 @@ M.mason = {
 
     -- Debuggers
     "delve", -- Golang
+    "java-debug-adapter", -- Java
 	},
 }
 
