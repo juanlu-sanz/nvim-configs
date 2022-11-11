@@ -18,7 +18,7 @@ M.general = {
 		},
 		["dU"] = { "<cmd>lua require'dapui'.toggle()<cr>", "DAP: Toggle UI", opts = { nowait = true } },
 		["db"] = { "<cmd>lua require'dap'.step_back()<cr>", "DAP: Step Back", opts = { nowait = true } },
-		["dd"] = { "<cmd>lua require'dap'.disconnect()<cr>", "DAP: Disconnect", opts = { nowait = true } },
+		["dD"] = { "<cmd>lua require'dap'.disconnect()<cr>", "DAP: Disconnect", opts = { nowait = true } },
 		["de"] = { "<cmd>lua require'dapui'.eval()<cr>", "DAP: Evaluate", opts = { nowait = true } },
 		["dg"] = { "<cmd>lua require'dap'.session()<cr>", "DAP: Get Session", opts = { nowait = true } },
 		["dh"] = { "<cmd>lua require'dap.ui.widgets'.hover()<cr>", "DAP: Hover Variables", opts = { nowait = true } },
